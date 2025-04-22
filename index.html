@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz: Actuadores Robóticos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz: Actuadores - Dando Movimiento y Acción ⚙</h1>
+        <p>¡Pon a prueba lo que aprendiste sobre los actuadores en robótica!</p>
+
+        <div class="student-info">
+            <label for="studentName">Tu Nombre Completo:</label>
+            <input type="text" id="studentName">
+        </div>
+
+        <div id="questions">
+            <!-- Las preguntas se cargarán aquí mediante JavaScript -->
+        </div>
+
+        <button id="submitQuiz">Terminar Quiz y Ver Resultados</button>
+
+        <div id="quizResults" class="results">
+            <h3>¡Resultados del Quiz!</h3>
+            <p><span id="resultNameDisplay"></span>, tu puntuación es:</p>
+            <p><span id="finalScoreDisplay"></span> / 20</p>
+            <p>Tu nota es: <strong id="finalGradeDisplay" style="font-size: 1.3em;"></strong> / 10</p>
+            <div class="screenshot-instruction">
+                 <strong>Instrucción:</strong> Por favor, toma una **captura de pantalla** de esta sección de resultados (donde se vea tu nombre y nota) y súbela al espacio de la tarea de la WebQuest en Google Classroom de Ciencias de la Computación.
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
